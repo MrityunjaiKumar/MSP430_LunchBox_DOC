@@ -2,9 +2,11 @@
 
 This documentation is build using sphinx environment.
 
-## Setting up the sphinx environment 
+## To clone repository with all submodules, use following commands
 
 <pre>
-$ sphinx-quickstart
+git clone https://github.com/MrityunjaiKumar/MSP430_LunchBox_DOC.git 
 
+git submodule update --recursive
 </pre>
+
