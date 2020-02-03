@@ -17,10 +17,12 @@ For NPTEL course repository around MSP430 Lunchbox, please visit `https://github
 
 .. toctree::
    :maxdepth: 2
-
+   
+   files/Hardware_Details/index
    files/Get_Started/index
    files/Bare_Minimum_GIT/index
    files/Bare_Minimum_C/index
+   files/Experiment_Manual/index
 
 
 Indices and tables
