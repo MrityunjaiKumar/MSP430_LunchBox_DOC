@@ -16,14 +16,16 @@ MSP430 LunchBox is being manufactured and marketed by `SincGrid LLP <http://sinc
 For NPTEL course repository around MSP430 Lunchbox, please visit `https://github.com/ticepd/EmbSysDesign_NPTEL_Course <https://github.com/ticepd/EmbSysDesign_NPTEL_Course>`_.
 
 .. toctree::
-   :maxdepth: 2
-   
+   :maxdepth: 4
+   :caption: Table of Contents
+
    files/Hardware_Details/index
    files/Get_Started/index
-   files/Bare_Minimum_GIT/index
-   files/Bare_Minimum_C/index
+   files/Prerequisites.rst
    files/Experiment_Manual/index
 
+..   files/Bare_Minimum_GIT/index
+..   files/Bare_Minimum_C/index
 
 Indices and tables
 ==================
