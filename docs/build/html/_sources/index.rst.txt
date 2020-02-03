@@ -20,8 +20,8 @@ For NPTEL course repository around MSP430 Lunchbox, please visit `https://github
    :caption: Table of Contents
 
    files/Hardware_Details/index
-   files/Get_Started/index
    files/Prerequisites.rst
+   files/Get_Started/index
    files/Experiment_Manual/index
 
 ..   files/Bare_Minimum_GIT/index
