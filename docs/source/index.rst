@@ -6,6 +6,14 @@
 Welcome to MSP430 LunchBox's documentation!
 ===============================================
 
+This is documentation for MSP430 LunchBox
+
+.. image:: ../_static/images/Lunchbox.png
+    :width: 200px
+    :align: center
+    :height: 200px
+    :alt: LunchBox
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
