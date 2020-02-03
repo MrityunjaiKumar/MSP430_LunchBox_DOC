@@ -1,5 +1,5 @@
 ******************************************
-Experiment manual as per NPTEL series
+Experiments manual as per NPTEL series
 ******************************************
 
 Introduction
