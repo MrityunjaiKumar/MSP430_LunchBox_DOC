@@ -1,0 +1,3 @@
+[submodule "Software/EmbSysDesign"]
+	path = Software/EmbSysDesign
+	url = https://github.com/MrityunjaiKumar/EmbSysDesign_NPTEL_Course.git
