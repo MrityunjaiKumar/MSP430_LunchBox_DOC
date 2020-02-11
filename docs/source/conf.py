@@ -10,20 +10,27 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
+import os
+import sys
+import sphinx
 # sys.path.insert(0, os.path.abspath('.'))
 
 extensions = [
+    'breathe',
+    'matplotlib.sphinxext.only_directives',
     'sphinx.ext.autodoc',
+    'matplotlib.sphinxext.plot_directive',
+    'sphinx.ext.autosummary',
     'sphinx.ext.coverage',
     'sphinx.ext.doctest',
-    'sphinx.ext.autosummary',
+    'sphinx.ext.graphviz',
     'sphinx.ext.intersphinx',
     'sphinx.ext.extlinks',
     'sphinx_gallery.gen_gallery',
     'sphinx.ext.napoleon',
-    'breathe',
+    'sphinx.ext.todo',
+    'sphinx.ext.pngmath',
+    'sphinx.ext.ifconfig',
     'rst2pdf.pdfbuilder'
 ]
 
@@ -80,7 +87,7 @@ html_theme = 'sphinx_rtd_theme'
 # documentation.
 #
 html_theme_options = {
-    'collapse_navigation' : True,
+    'collapse_navigation': True,
     'logo_only': True,
 }
 html_favicon = 'favicon.ico'
