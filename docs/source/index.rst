@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-###########################################
-Welcome to MSP430 LunchBox's documentation!
-###########################################
+################################
+MSP430 LunchBox's documentation!
+################################
 
 .. image:: _static/images/Lunchbox.png
     :align: center
@@ -25,7 +25,6 @@ MSP430 LunchBox is being manufactured and marketed by `SincGrid LLP <http://sinc
 Where to buy LunchBox?
 ======================
 .. image:: _static/images/BuyLunchBox.png
-   :scale: 100 %
    :alt: click to buy
    :target: http://buy.lunchbox.sincgrid.com
    :align: center
