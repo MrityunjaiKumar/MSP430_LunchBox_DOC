@@ -12,7 +12,8 @@ List of Experiments
 ===================
 
 .. include:: ../../../../Software/EmbSysDesign/Software/Examples_Msp430G2553_LunchBox/Exp02_LunchBox_HelloLED/Gist.rst
-.. include:: ../../../../Software/EmbSysDesign/Software/Examples_Msp430G2553_LunchBox/Exp03_LunchBox_HelloBlink/Gist.rst
+.. include:: ../../../../Software/EmbSysDesign/Software/Examples_Msp430G2553_LunchBox/Exp03_LunchBox_HelloBlink_a/Gist.rst
+.. include:: ../../../../Software/EmbSysDesign/Software/Examples_Msp430G2553_LunchBox/Exp03_LunchBox_HelloBlink_b/Gist.rst
 .. include:: ../../../../Software/EmbSysDesign/Software/Examples_Msp430G2553_LunchBox/Exp04_LunchBox_HelloSwitch/Gist.rst
 
 .. include:: ../../../../Software/EmbSysDesign/Software/Examples_Msp430G2553_LunchBox/Exp05_LunchBox_DebouncingTheSwitch/Gist.rst
