@@ -37,7 +37,7 @@ Only one step to take care is to select the MSP430 ultra-low power MCUs selectio
 .. image:: ../../_static/images/Image-a-CCS-Installation3.png
     :align: center
 
-setting up BSL uploading mechanism
+Setting up BSL uploading mechanism
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note::
