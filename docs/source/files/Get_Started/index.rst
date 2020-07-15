@@ -22,7 +22,7 @@ Dowload and install following executables on windows machine.
 
 .. note::
 	- BSL programmer is included in `git respository <https://github.com/ticepd/EmbSysDesign_NPTEL_Course>`_ of NPTEL course. 
-	- Adding the path of BSL Programmer in environment variable will make it accessible from everywhere.
+	- Adding the path of BSL Programmer in environment variable will make it accessible from everywhere. 
 
 Installation Step by Step
 =========================
@@ -109,4 +109,4 @@ right click on project and click build.
 How to push the code to MSP430 LunchBox?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Since the code pushing mechanism is added in post build steps. Therfore, right click and press rebuild the project to compile and push thereafter. This step will atomatically trigger the pushing mechanism in itself.
+Since the code pushing mechanism is added in post build steps. Therefore, right click and press rebuild the project to compile and push thereafter. This step will atomatically trigger the pushing mechanism in itself.
