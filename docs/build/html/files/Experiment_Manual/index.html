@@ -87,244 +87,240 @@
               <p class="caption"><span class="caption-text">Table of Contents</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../Hardware_Details/index.html">LunchBox Hardware</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../Prerequisites.html">Prerequisites</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../Get_Started/index.html">Getting Started</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Experiments manual as per NPTEL series</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#what-you-need">What You Need</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-you-need">What You Need</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#list-of-experiments">List of Experiments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-1-lunchbox-hello-led">Experiment 1 - LunchBox Hello LED</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#list-of-experiments">List of Experiments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-1-lunchbox-hello-led">Experiment 1 - LunchBox Hello LED</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#description">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#hardware-needed">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#connections">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#output">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#code">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#description">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hardware-needed">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#connections">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#output">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#code">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-2-lunchbox-hello-blink-using-msp430-h">Experiment 2 - LunchBox Hello Blink (using MSP430.h)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-2-lunchbox-hello-blink-using-msp430-h">Experiment 2 - LunchBox Hello Blink (using MSP430.h)</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id1">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#course-link">Course link</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id2">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#schematic-image">Schematic image</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id3">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id4">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id5">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#course-link">Course link</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#schematic-image">Schematic image</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-2-lunchbox-hello-blink-using-pointers">Experiment 2 - LunchBox Hello Blink (using pointers)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-2-lunchbox-hello-blink-using-pointers">Experiment 2 - LunchBox Hello Blink (using pointers)</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id6">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id7">Course link</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id8">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id9">Schematic image</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id10">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id11">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id12">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">Course link</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">Schematic image</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id10">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id11">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id12">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-3-lunchbox-hello-switch">Experiment 3 - LunchBox Hello Switch</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-3-lunchbox-hello-switch">Experiment 3 - LunchBox Hello Switch</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id13">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id14">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id15">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id16">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id17">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id13">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id14">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id15">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id16">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id17">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-4-lunchbox-debouncing-the-switch">Experiment 4 - LunchBox Debouncing the Switch</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-4-lunchbox-debouncing-the-switch">Experiment 4 - LunchBox Debouncing the Switch</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id18">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id19">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id20">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id21">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id22">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id18">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id19">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id20">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id21">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id22">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-5-lunchbox-hello-switch-pull-down">Experiment 5 - LunchBox Hello Switch Pull Down</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-5-lunchbox-hello-switch-pull-down">Experiment 5 - LunchBox Hello Switch Pull Down</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id23">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id24">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id25">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id26">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id27">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id23">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id24">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id25">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id26">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id27">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-6-lunchbox-helloswitch-pull-up">Experiment 6 - LunchBox HelloSwitch Pull Up</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-6-lunchbox-helloswitch-pull-up">Experiment 6 - LunchBox HelloSwitch Pull Up</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id28">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id29">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id30">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id31">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id32">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id28">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id29">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id30">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id31">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id32">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-7-lunchbox-helloclock">Experiment 7 - LunchBox HelloClock</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-7-lunchbox-helloclock">Experiment 7 - LunchBox HelloClock</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id33">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id34">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id35">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id36">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id37">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id33">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id34">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id35">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id36">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id37">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-8-lunchbox-helloresetsource">Experiment 8 - LunchBox HelloResetSource</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-8-lunchbox-helloresetsource">Experiment 8 - LunchBox HelloResetSource</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id38">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id39">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id40">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id41">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id42">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id38">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id39">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id40">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id41">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id42">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-9-lunchbox-hellointerrupt">Experiment 9 - LunchBox HelloInterrupt</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-9-lunchbox-hellointerrupt">Experiment 9 - LunchBox HelloInterrupt</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id43">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id44">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id45">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id46">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id47">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id43">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id44">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id45">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id46">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id47">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-10-lunchbox-hellointerrupt-rising">Experiment 10 - LunchBox HelloInterrupt Rising</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-10-lunchbox-hellointerrupt-rising">Experiment 10 - LunchBox HelloInterrupt Rising</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id48">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id49">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id50">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id51">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id52">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id48">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id49">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id50">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id51">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id52">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-11-lunchbox-hello-interrupt-on-falling-edge">Experiment 11 - LunchBox Hello Interrupt on Falling Edge</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-11-lunchbox-hello-interrupt-on-falling-edge">Experiment 11 - LunchBox Hello Interrupt on Falling Edge</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id53">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id54">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id55">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id56">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id57">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id53">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id54">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id55">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id56">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id57">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-12-lunchbox-hello-seven-segment-display">Experiment 12 - LunchBox Hello Seven Segment Display</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-12-lunchbox-hello-seven-segment-display">Experiment 12 - LunchBox Hello Seven Segment Display</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id58">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id59">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id60">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id61">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id62">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id58">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id59">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id60">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id61">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id62">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-13-lunchbox-hello-low-power-mode-lpm">Experiment 13 - LunchBox Hello Low Power Mode (LPM)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-13-lunchbox-hello-low-power-mode-lpm">Experiment 13 - LunchBox Hello Low Power Mode (LPM)</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id63">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id64">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id65">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id66">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id67">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id63">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id64">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id65">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id66">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id67">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-14-lunchbox-hellolcd">Experiment 14 - LunchBox HelloLCD</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-14-lunchbox-hellolcd">Experiment 14 - LunchBox HelloLCD</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id68">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id69">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id70">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id71">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id72">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id68">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id69">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id70">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id71">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id72">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-15-lunchbox-hello-lcd-with-custom-character">Experiment 15 - LunchBox Hello LCD With Custom Character</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-15-lunchbox-hello-lcd-with-custom-character">Experiment 15 - LunchBox Hello LCD With Custom Character</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id73">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id74">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id75">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id76">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id77">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id73">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id74">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id75">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id76">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id77">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-16-lunchbox-hello-timer">Experiment 16 - LunchBox Hello Timer</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-16-lunchbox-hello-timer">Experiment 16 - LunchBox Hello Timer</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id78">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id79">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id80">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id81">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id82">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id78">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id79">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id80">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id81">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id82">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-17-lunchbox-hellosoftwarepwm-large-delay">Experiment 17 -LunchBox HelloSoftwarePWM (Large Delay)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-17-lunchbox-hellosoftwarepwm-large-delay">Experiment 17 -LunchBox HelloSoftwarePWM (Large Delay)</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id83">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id84">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id85">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id86">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id87">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id83">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id84">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id85">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id86">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id87">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-18-lunchbox-hello-hardware-pwm-8bit">Experiment 18 - LunchBox Hello Hardware PWM (8Bit)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-18-lunchbox-hello-hardware-pwm-8bit">Experiment 18 - LunchBox Hello Hardware PWM (8Bit)</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id88">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id89">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id90">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id91">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id92">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id88">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id89">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id90">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id91">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id92">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-19-lunchbox-hello-hardware-pwm-16-bit">Experiment 19 - LunchBox Hello Hardware PWM (16 bit)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-19-lunchbox-hello-hardware-pwm-16-bit">Experiment 19 - LunchBox Hello Hardware PWM (16 bit)</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id93">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id94">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id95">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id96">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id97">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id93">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id94">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id95">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id96">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id97">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-20-lunchbox-hello-adc">Experiment 20 - LunchBox Hello ADC</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-20-lunchbox-hello-adc">Experiment 20 - LunchBox Hello ADC</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id98">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id99">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id100">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id101">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id102">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id98">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id99">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id100">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id101">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id102">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-21-lunchbox-hello-adc-lcd">Experiment 21 - LunchBox Hello ADC LCD</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-21-lunchbox-hello-adc-lcd">Experiment 21 - LunchBox Hello ADC LCD</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id103">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id104">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id105">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id106">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id107">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id103">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id104">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id105">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id106">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id107">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-22-lunchbox-hello-adc-internal-temperature-sensor">Experiment 22 - LunchBox Hello ADC Internal Temperature Sensor</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-22-lunchbox-hello-adc-internal-temperature-sensor">Experiment 22 - LunchBox Hello ADC Internal Temperature Sensor</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id108">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id109">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id110">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id111">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id112">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id108">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id109">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id110">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id111">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id112">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-23-lunchbox-hello-lfsr-8bit">Experiment 23 - LunchBox Hello LFSR 8Bit</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-23-lunchbox-hello-lfsr-8bit">Experiment 23 - LunchBox Hello LFSR 8Bit</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id113">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id114">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id115">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id116">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id117">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id113">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id114">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id115">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id116">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id117">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-24-lunchbox-hello-lfsr-32bit">Experiment 24 - LunchBox Hello LFSR 32Bit</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-24-lunchbox-hello-lfsr-32bit">Experiment 24 - LunchBox Hello LFSR 32Bit</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id118">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id119">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id120">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id121">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id122">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id118">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id119">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id120">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id121">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id122">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-25-lunchbox-hello-dac">Experiment 25 - LunchBox Hello DAC</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-25-lunchbox-hello-dac">Experiment 25 - LunchBox Hello DAC</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id123">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id124">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id125">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id126">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id127">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id123">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id124">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id125">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id126">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id127">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-26-lunchbox-lemon-battery-led-blink">Experiment 26  LunchBox Lemon Battery LED Blink</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-26-lunchbox-lemon-battery-led-blink">Experiment 26  LunchBox Lemon Battery LED Blink</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id128">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id129">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id130">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id131">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id132">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id128">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id129">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id130">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id131">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id132">Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#experiment-27-lunchbox-hello-serial">Experiment 27 - LunchBox Hello Serial</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#experiment-27-lunchbox-hello-serial">Experiment 27 - LunchBox Hello Serial</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id133">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id134">Course link</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id135">Hardware needed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id136">Schematic image</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id137">Connections</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id138">Output</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id139">Code</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#id133">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id134">Course link</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id135">Hardware needed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id136">Schematic image</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id137">Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id138">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id139">Code</a></li>
 </ul>
 </li>
 </ul>
@@ -394,34 +390,34 @@
             
   <div class="section" id="experiments-manual-as-per-nptel-series">
 <h1>Experiments manual as per NPTEL series<a class="headerlink" href="#experiments-manual-as-per-nptel-series" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="what-you-need">
-<h3>What You Need<a class="headerlink" href="#what-you-need" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
+<h2>What You Need<a class="headerlink" href="#what-you-need" title="Permalink to this headline">¶</a></h2>
+<p>You need Swayam component kit, specifically made for this course requirements :-</p>
+<a class="reference external image-reference" href="http://buy.swayam.components.sincgrid.com"><img alt="click to buy" class="align-center" src="../../_images/swayam_kit_info.jpg" /></a>
 <div class="section" id="list-of-experiments">
-<h2>List of Experiments<a class="headerlink" href="#list-of-experiments" title="Permalink to this headline">¶</a></h2>
+<h3>List of Experiments<a class="headerlink" href="#list-of-experiments" title="Permalink to this headline">¶</a></h3>
 </div>
 <div class="section" id="experiment-1-lunchbox-hello-led">
-<h2>Experiment 1 - LunchBox Hello LED<a class="headerlink" href="#experiment-1-lunchbox-hello-led" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 1 - LunchBox Hello LED<a class="headerlink" href="#experiment-1-lunchbox-hello-led" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="description">
-<h3>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides the functions and register settings to switch ON the LED present on LunchBox.</p>
 </div>
 <div class="section" id="hardware-needed">
-<h3>Hardware needed<a class="headerlink" href="#hardware-needed" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#hardware-needed" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="connections">
-<h3>Connections<a class="headerlink" href="#connections" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#connections" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="output">
-<h3>Output<a class="headerlink" href="#output" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#output" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="code">
-<h3>Code<a class="headerlink" href="#code" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#code" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -457,36 +453,36 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-2-lunchbox-hello-blink-using-msp430-h">
-<h2>Experiment 2 - LunchBox Hello Blink (using MSP430.h)<a class="headerlink" href="#experiment-2-lunchbox-hello-blink-using-msp430-h" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 2 - LunchBox Hello Blink (using MSP430.h)<a class="headerlink" href="#experiment-2-lunchbox-hello-blink-using-msp430-h" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id1">
-<h3>Description<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides the functions and register settings to toggle the LED present on LunchBox.</p>
 </div>
 <div class="section" id="course-link">
-<h3>Course link<a class="headerlink" href="#course-link" title="Permalink to this headline">¶</a></h3>
+<h2>Course link<a class="headerlink" href="#course-link" title="Permalink to this headline">¶</a></h2>
 <p>Covered in lecture number - Lecture 21</p>
 </div>
 <div class="section" id="id2">
-<h3>Hardware needed<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="schematic-image">
-<h3>Schematic image<a class="headerlink" href="#schematic-image" title="Permalink to this headline">¶</a></h3>
+<h2>Schematic image<a class="headerlink" href="#schematic-image" title="Permalink to this headline">¶</a></h2>
 <p>NA</p>
 </div>
 <div class="section" id="id3">
-<h3>Connections<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id4">
-<h3>Output<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <p>On board user led starts blinking</p>
 </div>
 <div class="section" id="id5">
-<h3>Code<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -536,36 +532,36 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-2-lunchbox-hello-blink-using-pointers">
-<h2>Experiment 2 - LunchBox Hello Blink (using pointers)<a class="headerlink" href="#experiment-2-lunchbox-hello-blink-using-pointers" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 2 - LunchBox Hello Blink (using pointers)<a class="headerlink" href="#experiment-2-lunchbox-hello-blink-using-pointers" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id6">
-<h3>Description<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides the functions and register settings to toggle the LED present on LunchBox. In this example, we have used direct memory mapped address of register to perform the blinking of led. We can rephrase this statement by saying no #include &lt;MSP430.h&gt; header is used, which contains mapping for register names and addresses. Comments are provided to see the correlation of addresses to register names. These addresses can be verfied from the MSP430G2553 datasheet.</p>
 </div>
 <div class="section" id="id7">
-<h3>Course link<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<h2>Course link<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
 <p>Covered in lecture number - Lecture 21</p>
 </div>
 <div class="section" id="id8">
-<h3>Hardware needed<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
 <p>NA</p>
 </div>
 <div class="section" id="id9">
-<h3>Schematic image<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<h2>Schematic image<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
 <p>NA</p>
 </div>
 <div class="section" id="id10">
-<h3>Connections<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
 <p>NA</p>
 </div>
 <div class="section" id="id11">
-<h3>Output<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
 <p>On board user led starts blinking</p>
 </div>
 <div class="section" id="id12">
-<h3>Code<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -631,27 +627,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-3-lunchbox-hello-switch">
-<h2>Experiment 3 - LunchBox Hello Switch<a class="headerlink" href="#experiment-3-lunchbox-hello-switch" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 3 - LunchBox Hello Switch<a class="headerlink" href="#experiment-3-lunchbox-hello-switch" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id13">
-<h3>Description<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides the functions and register settings for toggling the state of onboard LED with switch present on LunchBox.</p>
 </div>
 <div class="section" id="id14">
-<h3>Hardware needed<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id15">
-<h3>Connections<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id16">
-<h3>Output<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id17">
-<h3>Code<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -699,27 +695,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-4-lunchbox-debouncing-the-switch">
-<h2>Experiment 4 - LunchBox Debouncing the Switch<a class="headerlink" href="#experiment-4-lunchbox-debouncing-the-switch" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 4 - LunchBox Debouncing the Switch<a class="headerlink" href="#experiment-4-lunchbox-debouncing-the-switch" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id18">
-<h3>Description<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h2>
 <p>This example code is similar to that of LunchBox Hello Switch. The only difference is that in this code Switch bounces are ignored.</p>
 </div>
 <div class="section" id="id19">
-<h3>Hardware needed<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id20">
-<h3>Connections<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id21">
-<h3>Output<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id22">
-<h3>Code<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -769,27 +765,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-5-lunchbox-hello-switch-pull-down">
-<h2>Experiment 5 - LunchBox Hello Switch Pull Down<a class="headerlink" href="#experiment-5-lunchbox-hello-switch-pull-down" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 5 - LunchBox Hello Switch Pull Down<a class="headerlink" href="#experiment-5-lunchbox-hello-switch-pull-down" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id23">
-<h3>Description<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides the functions and register settings for toggling the state of LED on LunchBox with an external switch connected with a Pull Down resistor.</p>
 </div>
 <div class="section" id="id24">
-<h3>Hardware needed<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h2>
 <p>Push Button Switch, Resistor (1 kohm), Breadboard, Connecting Wires</p>
 </div>
 <div class="section" id="id25">
-<h3>Connections<a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h2>
 <p>One end of Switch is connected to Vcc (3.3 V) and another end is at pin 1.4 of LunchBox. This pin is also connected to ground through a Pull Down resistor.</p>
 </div>
 <div class="section" id="id26">
-<h3>Output<a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id27">
-<h3>Code<a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -843,27 +839,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-6-lunchbox-helloswitch-pull-up">
-<h2>Experiment 6 - LunchBox HelloSwitch Pull Up<a class="headerlink" href="#experiment-6-lunchbox-helloswitch-pull-up" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 6 - LunchBox HelloSwitch Pull Up<a class="headerlink" href="#experiment-6-lunchbox-helloswitch-pull-up" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id28">
-<h3>Description<a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides the functions and register settings for toggling the state of LED on LunchBox with an external switch connected with a Pull Up resistor.</p>
 </div>
 <div class="section" id="id29">
-<h3>Hardware needed<a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h2>
 <p>Push Button Switch, Resistor (1 kohm), Breadboard, Connecting Wires.</p>
 </div>
 <div class="section" id="id30">
-<h3>Connections<a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h2>
 <p>One end of Switch is connected to Ground and another end is at pin 1.4 of LunchBox. This pin is also connected to Vcc (3.3 V) through a Pull Up resistor.</p>
 </div>
 <div class="section" id="id31">
-<h3>Output<a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id32">
-<h3>Code<a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -917,27 +913,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-7-lunchbox-helloclock">
-<h2>Experiment 7 - LunchBox HelloClock<a class="headerlink" href="#experiment-7-lunchbox-helloclock" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 7 - LunchBox HelloClock<a class="headerlink" href="#experiment-7-lunchbox-helloclock" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id33">
-<h3>Description<a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides the functions and register settings to toggle the LED present on LunchBox.</p>
 </div>
 <div class="section" id="id34">
-<h3>Hardware needed<a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id35">
-<h3>Connections<a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id36">
-<h3>Output<a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id37">
-<h3>Code<a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -1129,27 +1125,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-8-lunchbox-helloresetsource">
-<h2>Experiment 8 - LunchBox HelloResetSource<a class="headerlink" href="#experiment-8-lunchbox-helloresetsource" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 8 - LunchBox HelloResetSource<a class="headerlink" href="#experiment-8-lunchbox-helloresetsource" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id38">
-<h3>Description<a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides the functions and register settings to toggle the LED present on LunchBox.</p>
 </div>
 <div class="section" id="id39">
-<h3>Hardware needed<a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id40">
-<h3>Connections<a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id41">
-<h3>Output<a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id42">
-<h3>Code<a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
   2
   3
@@ -1351,27 +1347,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-9-lunchbox-hellointerrupt">
-<h2>Experiment 9 - LunchBox HelloInterrupt<a class="headerlink" href="#experiment-9-lunchbox-hellointerrupt" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 9 - LunchBox HelloInterrupt<a class="headerlink" href="#experiment-9-lunchbox-hellointerrupt" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id43">
-<h3>Description<a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h2>
 <p>This example code constitutes functions and register settings for toggling the state of onboard LED with onboard switch having interrupt on rising edge on Lunchbox.</p>
 </div>
 <div class="section" id="id44">
-<h3>Hardware needed<a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id45">
-<h3>Connections<a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id46">
-<h3>Output<a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id47">
-<h3>Code<a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -1443,27 +1439,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-10-lunchbox-hellointerrupt-rising">
-<h2>Experiment 10 - LunchBox HelloInterrupt Rising<a class="headerlink" href="#experiment-10-lunchbox-hellointerrupt-rising" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 10 - LunchBox HelloInterrupt Rising<a class="headerlink" href="#experiment-10-lunchbox-hellointerrupt-rising" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id48">
-<h3>Description<a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides the functions and register settings for toggling the state of onboard LED with an external switch having interrupt on rising edge.</p>
 </div>
 <div class="section" id="id49">
-<h3>Hardware needed<a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h2>
 <p>Push Button Switch, Resistor (1 kohm), Breadboard, Connecting wires.</p>
 </div>
 <div class="section" id="id50">
-<h3>Connections<a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h2>
 <p>One end of switch is connected to Ground and another end is connected to pin 1.4 of Lunchbox. This pin is also connected to Vcc (3.3 V) through a pull-up resistor.</p>
 </div>
 <div class="section" id="id51">
-<h3>Output<a class="headerlink" href="#id51" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id51" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id52">
-<h3>Code<a class="headerlink" href="#id52" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id52" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -1529,27 +1525,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-11-lunchbox-hello-interrupt-on-falling-edge">
-<h2>Experiment 11 - LunchBox Hello Interrupt on Falling Edge<a class="headerlink" href="#experiment-11-lunchbox-hello-interrupt-on-falling-edge" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 11 - LunchBox Hello Interrupt on Falling Edge<a class="headerlink" href="#experiment-11-lunchbox-hello-interrupt-on-falling-edge" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id53">
-<h3>Description<a class="headerlink" href="#id53" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id53" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides the functions and register settings for toggling the state of onboard LED with an external switch having interrupt on falling edge.</p>
 </div>
 <div class="section" id="id54">
-<h3>Hardware needed<a class="headerlink" href="#id54" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id54" title="Permalink to this headline">¶</a></h2>
 <p>Push Button Switch, Resistor (1 kohm), Breadboard, Connecting wires.</p>
 </div>
 <div class="section" id="id55">
-<h3>Connections<a class="headerlink" href="#id55" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id55" title="Permalink to this headline">¶</a></h2>
 <p>One end of switch is connected to Ground and another end is connected to pin 1.4 of Lunchbox. This pin is also connected to Vcc (3.3 V) through a pull-up resistor.</p>
 </div>
 <div class="section" id="id56">
-<h3>Output<a class="headerlink" href="#id56" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id56" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id57">
-<h3>Code<a class="headerlink" href="#id57" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id57" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -1615,27 +1611,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-12-lunchbox-hello-seven-segment-display">
-<h2>Experiment 12 - LunchBox Hello Seven Segment Display<a class="headerlink" href="#experiment-12-lunchbox-hello-seven-segment-display" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 12 - LunchBox Hello Seven Segment Display<a class="headerlink" href="#experiment-12-lunchbox-hello-seven-segment-display" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id58">
-<h3>Description<a class="headerlink" href="#id58" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id58" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides function and register settings for increasing count on every press of external switch. The count will increase from 0 to F (in Hexadecimal).</p>
 </div>
 <div class="section" id="id59">
-<h3>Hardware needed<a class="headerlink" href="#id59" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id59" title="Permalink to this headline">¶</a></h2>
 <p>Single Seven Segment Display (SSD) - Common Cathode, Resistors - 270 ohm (quanitity - 8), 1 kohm (quanitity - 1), Toggle Push Button Switch, Connecting wires.</p>
 </div>
 <div class="section" id="id60">
-<h3>Connections<a class="headerlink" href="#id60" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id60" title="Permalink to this headline">¶</a></h2>
 <p>One end of switch is connected to Ground and another end is connected to pin 2.3 of Lunchbox, this pin is also connected to Vcc (3.3 V) through a pull-up resistor. Ground pin of SSD is connected to Ground of LunchBox, pins a,b,c,d,e,f,g,decimal of SSD are connected to pins 1.0 to 1.7 of LunchBox respectively through resistor of 270 ohm.</p>
 </div>
 <div class="section" id="id61">
-<h3>Output<a class="headerlink" href="#id61" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id61" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id62">
-<h3>Code<a class="headerlink" href="#id62" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id62" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -1769,27 +1765,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-13-lunchbox-hello-low-power-mode-lpm">
-<h2>Experiment 13 - LunchBox Hello Low Power Mode (LPM)<a class="headerlink" href="#experiment-13-lunchbox-hello-low-power-mode-lpm" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 13 - LunchBox Hello Low Power Mode (LPM)<a class="headerlink" href="#experiment-13-lunchbox-hello-low-power-mode-lpm" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id63">
-<h3>Description<a class="headerlink" href="#id63" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id63" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides the functions and register settings for operating MSP430 controller in Low Power Mode. In this example code state of onboard LED on LunchBox is toggled with onboard switch having interrupt on rising edge while running the microcontroller in Low Power Mode.</p>
 </div>
 <div class="section" id="id64">
-<h3>Hardware needed<a class="headerlink" href="#id64" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id64" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id65">
-<h3>Connections<a class="headerlink" href="#id65" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id65" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id66">
-<h3>Output<a class="headerlink" href="#id66" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id66" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id67">
-<h3>Code<a class="headerlink" href="#id67" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id67" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -1857,27 +1853,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-14-lunchbox-hellolcd">
-<h2>Experiment 14 - LunchBox HelloLCD<a class="headerlink" href="#experiment-14-lunchbox-hellolcd" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 14 - LunchBox HelloLCD<a class="headerlink" href="#experiment-14-lunchbox-hellolcd" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id68">
-<h3>Description<a class="headerlink" href="#id68" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id68" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides the functions and register settings to toggle the LED present on LunchBox.</p>
 </div>
 <div class="section" id="id69">
-<h3>Hardware needed<a class="headerlink" href="#id69" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id69" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id70">
-<h3>Connections<a class="headerlink" href="#id70" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id70" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id71">
-<h3>Output<a class="headerlink" href="#id71" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id71" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id72">
-<h3>Code<a class="headerlink" href="#id72" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id72" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
   2
   3
@@ -2147,27 +2143,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-15-lunchbox-hello-lcd-with-custom-character">
-<h2>Experiment 15 - LunchBox Hello LCD With Custom Character<a class="headerlink" href="#experiment-15-lunchbox-hello-lcd-with-custom-character" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 15 - LunchBox Hello LCD With Custom Character<a class="headerlink" href="#experiment-15-lunchbox-hello-lcd-with-custom-character" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id73">
-<h3>Description<a class="headerlink" href="#id73" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id73" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides the functions and register settings to toggle the LED present on LunchBox.</p>
 </div>
 <div class="section" id="id74">
-<h3>Hardware needed<a class="headerlink" href="#id74" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id74" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id75">
-<h3>Connections<a class="headerlink" href="#id75" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id75" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id76">
-<h3>Output<a class="headerlink" href="#id76" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id76" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id77">
-<h3>Code<a class="headerlink" href="#id77" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id77" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
   2
   3
@@ -2573,27 +2569,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-16-lunchbox-hello-timer">
-<h2>Experiment 16 - LunchBox Hello Timer<a class="headerlink" href="#experiment-16-lunchbox-hello-timer" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 16 - LunchBox Hello Timer<a class="headerlink" href="#experiment-16-lunchbox-hello-timer" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id78">
-<h3>Description<a class="headerlink" href="#id78" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id78" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides function and register settings for generating Timer interrupt at 1 second. Using these settings, an eight bit binary up counter implementation has been represented on eight LEDs.</p>
 </div>
 <div class="section" id="id79">
-<h3>Hardware needed<a class="headerlink" href="#id79" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id79" title="Permalink to this headline">¶</a></h2>
 <p>Eight LEDs, Eight Resistors, Breadboard, Connecting Wires.</p>
 </div>
 <div class="section" id="id80">
-<h3>Connections<a class="headerlink" href="#id80" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id80" title="Permalink to this headline">¶</a></h2>
 <p>Port 1 pins of Lunchbox are connected to Eight LEDs via resistors in series. Pin 1.0 will represent LSB and Pin 1.7 will represent MSB of that Binary up counter.</p>
 </div>
 <div class="section" id="id81">
-<h3>Output<a class="headerlink" href="#id81" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id81" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id82">
-<h3>Code<a class="headerlink" href="#id82" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id82" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -2693,27 +2689,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-17-lunchbox-hellosoftwarepwm-large-delay">
-<h2>Experiment 17 -LunchBox HelloSoftwarePWM (Large Delay)<a class="headerlink" href="#experiment-17-lunchbox-hellosoftwarepwm-large-delay" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 17 -LunchBox HelloSoftwarePWM (Large Delay)<a class="headerlink" href="#experiment-17-lunchbox-hellosoftwarepwm-large-delay" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id83">
-<h3>Description<a class="headerlink" href="#id83" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id83" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides function and register settings for generating PWM signal with help of delay using C commands (Software PWM). In this code, intensity of onboard LED on Lunchbox is controlled with Software PWM.</p>
 </div>
 <div class="section" id="id84">
-<h3>Hardware needed<a class="headerlink" href="#id84" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id84" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id85">
-<h3>Connections<a class="headerlink" href="#id85" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id85" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id86">
-<h3>Output<a class="headerlink" href="#id86" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id86" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id87">
-<h3>Code<a class="headerlink" href="#id87" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id87" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -2799,27 +2795,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-18-lunchbox-hello-hardware-pwm-8bit">
-<h2>Experiment 18 - LunchBox Hello Hardware PWM (8Bit)<a class="headerlink" href="#experiment-18-lunchbox-hello-hardware-pwm-8bit" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 18 - LunchBox Hello Hardware PWM (8Bit)<a class="headerlink" href="#experiment-18-lunchbox-hello-hardware-pwm-8bit" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id88">
-<h3>Description<a class="headerlink" href="#id88" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id88" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides function and register settings for using Hardware PWM on LunchBox. In this example code, internal 16 bit Timer is used for generating PWM signal of fixed duty cycle. Pin 1.6 of LunchBox is used for getting PWM output.</p>
 </div>
 <div class="section" id="id89">
-<h3>Hardware needed<a class="headerlink" href="#id89" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id89" title="Permalink to this headline">¶</a></h2>
 <p>Breadboard, Connecting wires, LED, Resistor (1 kohm).</p>
 </div>
 <div class="section" id="id90">
-<h3>Connections<a class="headerlink" href="#id90" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id90" title="Permalink to this headline">¶</a></h2>
 <p>Pin 1.6 of Lunchbox is connected to anode of LED through a resistor of 1 kohm and cathode to Ground.</p>
 </div>
 <div class="section" id="id91">
-<h3>Output<a class="headerlink" href="#id91" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id91" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id92">
-<h3>Code<a class="headerlink" href="#id92" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id92" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -2923,27 +2919,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-19-lunchbox-hello-hardware-pwm-16-bit">
-<h2>Experiment 19 - LunchBox Hello Hardware PWM (16 bit)<a class="headerlink" href="#experiment-19-lunchbox-hello-hardware-pwm-16-bit" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 19 - LunchBox Hello Hardware PWM (16 bit)<a class="headerlink" href="#experiment-19-lunchbox-hello-hardware-pwm-16-bit" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id93">
-<h3>Description<a class="headerlink" href="#id93" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id93" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides function and register settings for using Hardware PWM on LunchBox. In this example code, internal 16 bit Timer is used for generating PWM signal of fixed duty cycle. Pin 1.6 of LunchBox is used for getting PWM output.</p>
 </div>
 <div class="section" id="id94">
-<h3>Hardware needed<a class="headerlink" href="#id94" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id94" title="Permalink to this headline">¶</a></h2>
 <p>Breadboard, Connecting wires, LED, Resistor (1 kohm).</p>
 </div>
 <div class="section" id="id95">
-<h3>Connections<a class="headerlink" href="#id95" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id95" title="Permalink to this headline">¶</a></h2>
 <p>Pin 1.6 of Lunchbox is connected to anode of LED through a resistor of 1 kohm and cathode to Ground.</p>
 </div>
 <div class="section" id="id96">
-<h3>Output<a class="headerlink" href="#id96" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id96" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id97">
-<h3>Code<a class="headerlink" href="#id97" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id97" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -3043,27 +3039,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-20-lunchbox-hello-adc">
-<h2>Experiment 20 - LunchBox Hello ADC<a class="headerlink" href="#experiment-20-lunchbox-hello-adc" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 20 - LunchBox Hello ADC<a class="headerlink" href="#experiment-20-lunchbox-hello-adc" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id98">
-<h3>Description<a class="headerlink" href="#id98" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id98" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides function and register settings for reading analog data. This code converts the analog value provided by potentiometer into a corresponding 10 bit digital value. The converted digital value is then used to change the brightness of an external LED using PWM.</p>
 </div>
 <div class="section" id="id99">
-<h3>Hardware needed<a class="headerlink" href="#id99" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id99" title="Permalink to this headline">¶</a></h2>
 <p>Potentiometer (100 k), Resistor (330 ohms), LED, Breadboard, Connecting wires.</p>
 </div>
 <div class="section" id="id100">
-<h3>Connections<a class="headerlink" href="#id100" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id100" title="Permalink to this headline">¶</a></h2>
 <p>Pin 1.6 of LunchBox is connected to anode of LED through a resistor of 1 kohm and cathode to Ground. Pin 1.0 of LunchBox is connected to Analog pin (middle pin) of potentiometer and the other two ends are connected to Vcc and Ground respectively.</p>
 </div>
 <div class="section" id="id101">
-<h3>Output<a class="headerlink" href="#id101" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id101" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id102">
-<h3>Code<a class="headerlink" href="#id102" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id102" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -3191,27 +3187,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-21-lunchbox-hello-adc-lcd">
-<h2>Experiment 21 - LunchBox Hello ADC LCD<a class="headerlink" href="#experiment-21-lunchbox-hello-adc-lcd" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 21 - LunchBox Hello ADC LCD<a class="headerlink" href="#experiment-21-lunchbox-hello-adc-lcd" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id103">
-<h3>Description<a class="headerlink" href="#id103" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id103" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides function and register settings for reading analog data. This code converts the analog value provided by potentiometer into a corresponding 10 bit digital value. The converted digital value is then used to change the brightness of an external LED using PWM.</p>
 </div>
 <div class="section" id="id104">
-<h3>Hardware needed<a class="headerlink" href="#id104" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id104" title="Permalink to this headline">¶</a></h2>
 <p>Potentiometer (100 k), Resistor (330 ohms), LED, Breadboard, Connecting wires.</p>
 </div>
 <div class="section" id="id105">
-<h3>Connections<a class="headerlink" href="#id105" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id105" title="Permalink to this headline">¶</a></h2>
 <p>Pin 1.6 of LunchBox is connected to anode of LED through a resistor of 1 kohm and cathode to Ground. Pin 1.0 of LunchBox is connected to Analog pin (middle pin) of potentiometer and the other two ends are connected to Vcc and Ground respectively.</p>
 </div>
 <div class="section" id="id106">
-<h3>Output<a class="headerlink" href="#id106" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id106" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id107">
-<h3>Code<a class="headerlink" href="#id107" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id107" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
   2
   3
@@ -3603,27 +3599,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-22-lunchbox-hello-adc-internal-temperature-sensor">
-<h2>Experiment 22 - LunchBox Hello ADC Internal Temperature Sensor<a class="headerlink" href="#experiment-22-lunchbox-hello-adc-internal-temperature-sensor" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 22 - LunchBox Hello ADC Internal Temperature Sensor<a class="headerlink" href="#experiment-22-lunchbox-hello-adc-internal-temperature-sensor" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id108">
-<h3>Description<a class="headerlink" href="#id108" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id108" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides function and register settings for reading analog data. This code converts the analog value provided by potentiometer into a corresponding 10 bit digital value. The converted digital value is then used to change the brightness of an external LED using PWM.</p>
 </div>
 <div class="section" id="id109">
-<h3>Hardware needed<a class="headerlink" href="#id109" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id109" title="Permalink to this headline">¶</a></h2>
 <p>Potentiometer (100 k), Resistor (330 ohms), LED, Breadboard, Connecting wires.</p>
 </div>
 <div class="section" id="id110">
-<h3>Connections<a class="headerlink" href="#id110" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id110" title="Permalink to this headline">¶</a></h2>
 <p>Pin 1.6 of LunchBox is connected to anode of LED through a resistor of 1 kohm and cathode to Ground. Pin 1.0 of LunchBox is connected to Analog pin (middle pin) of potentiometer and the other two ends are connected to Vcc and Ground respectively.</p>
 </div>
 <div class="section" id="id111">
-<h3>Output<a class="headerlink" href="#id111" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id111" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id112">
-<h3>Code<a class="headerlink" href="#id112" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id112" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
   2
   3
@@ -4019,27 +4015,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-23-lunchbox-hello-lfsr-8bit">
-<h2>Experiment 23 - LunchBox Hello LFSR 8Bit<a class="headerlink" href="#experiment-23-lunchbox-hello-lfsr-8bit" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 23 - LunchBox Hello LFSR 8Bit<a class="headerlink" href="#experiment-23-lunchbox-hello-lfsr-8bit" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id113">
-<h3>Description<a class="headerlink" href="#id113" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id113" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides function and register settings for reading analog data. This code converts the analog value provided by potentiometer into a corresponding 10 bit digital value. The converted digital value is then used to change the brightness of an external LED using PWM.</p>
 </div>
 <div class="section" id="id114">
-<h3>Hardware needed<a class="headerlink" href="#id114" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id114" title="Permalink to this headline">¶</a></h2>
 <p>Potentiometer (100 k), Resistor (330 ohms), LED, Breadboard, Connecting wires.</p>
 </div>
 <div class="section" id="id115">
-<h3>Connections<a class="headerlink" href="#id115" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id115" title="Permalink to this headline">¶</a></h2>
 <p>Pin 1.6 of LunchBox is connected to anode of LED through a resistor of 1 kohm and cathode to Ground. Pin 1.0 of LunchBox is connected to Analog pin (middle pin) of potentiometer and the other two ends are connected to Vcc and Ground respectively.</p>
 </div>
 <div class="section" id="id116">
-<h3>Output<a class="headerlink" href="#id116" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id116" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id117">
-<h3>Code<a class="headerlink" href="#id117" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id117" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>  1
   2
   3
@@ -4477,27 +4473,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-24-lunchbox-hello-lfsr-32bit">
-<h2>Experiment 24 - LunchBox Hello LFSR 32Bit<a class="headerlink" href="#experiment-24-lunchbox-hello-lfsr-32bit" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 24 - LunchBox Hello LFSR 32Bit<a class="headerlink" href="#experiment-24-lunchbox-hello-lfsr-32bit" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id118">
-<h3>Description<a class="headerlink" href="#id118" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id118" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides function and register settings for reading analog data. This code converts the analog value provided by potentiometer into a corresponding 10 bit digital value. The converted digital value is then used to change the brightness of an external LED using PWM.</p>
 </div>
 <div class="section" id="id119">
-<h3>Hardware needed<a class="headerlink" href="#id119" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id119" title="Permalink to this headline">¶</a></h2>
 <p>Potentiometer (100 k), Resistor (330 ohms), LED, Breadboard, Connecting wires.</p>
 </div>
 <div class="section" id="id120">
-<h3>Connections<a class="headerlink" href="#id120" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id120" title="Permalink to this headline">¶</a></h2>
 <p>Pin 1.6 of LunchBox is connected to anode of LED through a resistor of 1 kohm and cathode to Ground. Pin 1.0 of LunchBox is connected to Analog pin (middle pin) of potentiometer and the other two ends are connected to Vcc and Ground respectively.</p>
 </div>
 <div class="section" id="id121">
-<h3>Output<a class="headerlink" href="#id121" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id121" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id122">
-<h3>Code<a class="headerlink" href="#id122" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id122" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -4623,27 +4619,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-25-lunchbox-hello-dac">
-<h2>Experiment 25 - LunchBox Hello DAC<a class="headerlink" href="#experiment-25-lunchbox-hello-dac" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 25 - LunchBox Hello DAC<a class="headerlink" href="#experiment-25-lunchbox-hello-dac" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id123">
-<h3>Description<a class="headerlink" href="#id123" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id123" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides function and register settings for reading analog data. This code converts the analog value provided by potentiometer into a corresponding 10 bit digital value. The converted digital value is then used to change the brightness of an external LED using PWM.</p>
 </div>
 <div class="section" id="id124">
-<h3>Hardware needed<a class="headerlink" href="#id124" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id124" title="Permalink to this headline">¶</a></h2>
 <p>Potentiometer (100 k), Resistor (330 ohms), LED, Breadboard, Connecting wires.</p>
 </div>
 <div class="section" id="id125">
-<h3>Connections<a class="headerlink" href="#id125" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id125" title="Permalink to this headline">¶</a></h2>
 <p>Pin 1.6 of LunchBox is connected to anode of LED through a resistor of 1 kohm and cathode to Ground. Pin 1.0 of LunchBox is connected to Analog pin (middle pin) of potentiometer and the other two ends are connected to Vcc and Ground respectively.</p>
 </div>
 <div class="section" id="id126">
-<h3>Output<a class="headerlink" href="#id126" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id126" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id127">
-<h3>Code<a class="headerlink" href="#id127" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id127" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -4705,27 +4701,27 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-26-lunchbox-lemon-battery-led-blink">
-<h2>Experiment 26  LunchBox Lemon Battery LED Blink<a class="headerlink" href="#experiment-26-lunchbox-lemon-battery-led-blink" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 26  LunchBox Lemon Battery LED Blink<a class="headerlink" href="#experiment-26-lunchbox-lemon-battery-led-blink" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id128">
-<h3>Description<a class="headerlink" href="#id128" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id128" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides function and register settings for enabling serial communication with UART on LunchBox. Baud Rate for UART communication is set to 9600.</p>
 </div>
 <div class="section" id="id129">
-<h3>Hardware needed<a class="headerlink" href="#id129" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id129" title="Permalink to this headline">¶</a></h2>
 <p>None</p>
 </div>
 <div class="section" id="id130">
-<h3>Connections<a class="headerlink" href="#id130" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id130" title="Permalink to this headline">¶</a></h2>
 <p>For using UART, Jumper J1 and J2 needs to be changed from Programming mode to UART mode.</p>
 </div>
 <div class="section" id="id131">
-<h3>Output<a class="headerlink" href="#id131" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id131" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="id132">
-<h3>Code<a class="headerlink" href="#id132" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id132" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -4813,36 +4809,36 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
-</div>
 <div class="section" id="experiment-27-lunchbox-hello-serial">
-<h2>Experiment 27 - LunchBox Hello Serial<a class="headerlink" href="#experiment-27-lunchbox-hello-serial" title="Permalink to this headline">¶</a></h2>
+<h3>Experiment 27 - LunchBox Hello Serial<a class="headerlink" href="#experiment-27-lunchbox-hello-serial" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
 <div class="section" id="id133">
-<h3>Description<a class="headerlink" href="#id133" title="Permalink to this headline">¶</a></h3>
+<h2>Description<a class="headerlink" href="#id133" title="Permalink to this headline">¶</a></h2>
 <p>This example code provides function and register settings for enabling serial communication with UART on LunchBox. Baud Rate for UART communication is set to 9600. It utilises on board CH340, which acts as USB-to-UART bridge. While recieving UART data, J1 and J2  selection should be on side 2.</p>
 </div>
 <div class="section" id="id134">
-<h3>Course link<a class="headerlink" href="#id134" title="Permalink to this headline">¶</a></h3>
+<h2>Course link<a class="headerlink" href="#id134" title="Permalink to this headline">¶</a></h2>
 <p>Covered in lecture number - Lecture 33</p>
 </div>
 <div class="section" id="id135">
-<h3>Hardware needed<a class="headerlink" href="#id135" title="Permalink to this headline">¶</a></h3>
+<h2>Hardware needed<a class="headerlink" href="#id135" title="Permalink to this headline">¶</a></h2>
 <p>NA</p>
 </div>
 <div class="section" id="id136">
-<h3>Schematic image<a class="headerlink" href="#id136" title="Permalink to this headline">¶</a></h3>
+<h2>Schematic image<a class="headerlink" href="#id136" title="Permalink to this headline">¶</a></h2>
 <p>NA</p>
 </div>
 <div class="section" id="id137">
-<h3>Connections<a class="headerlink" href="#id137" title="Permalink to this headline">¶</a></h3>
+<h2>Connections<a class="headerlink" href="#id137" title="Permalink to this headline">¶</a></h2>
 <p>For using UART, Jumper J1 and J2 needs to be changed from Programming mode to UART mode.</p>
 </div>
 <div class="section" id="id138">
-<h3>Output<a class="headerlink" href="#id138" title="Permalink to this headline">¶</a></h3>
+<h2>Output<a class="headerlink" href="#id138" title="Permalink to this headline">¶</a></h2>
 <p>An incremented character will be recieved on putty (or any serial terminal) wrt whatever you will send.</p>
 </div>
 <div class="section" id="id139">
-<h3>Code<a class="headerlink" href="#id139" title="Permalink to this headline">¶</a></h3>
+<h2>Code<a class="headerlink" href="#id139" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-c notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -4924,7 +4920,6 @@
 <span class="p">}</span>
 </pre></div>
 </td></tr></table></div>
-</div>
 </div>
 </div>
 

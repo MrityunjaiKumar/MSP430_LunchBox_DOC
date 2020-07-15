@@ -2,12 +2,16 @@
 Experiments manual as per NPTEL series
 ******************************************
 
-Introduction
-============
-
 What You Need
 ^^^^^^^^^^^^^
 
+You need Swayam component kit, specifically made for this course requirements :-
+
+.. image:: ../../_static/images/swayam_kit_info.jpg
+	:alt: click to buy
+	:target: http://buy.swayam.components.sincgrid.com
+	:align: center
+	
 List of Experiments
 ===================
 
