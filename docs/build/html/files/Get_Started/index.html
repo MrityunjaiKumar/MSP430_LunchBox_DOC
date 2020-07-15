@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -12,6 +11,11 @@
   
 
   
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/style.css" type="text/css" />
+
+  
   
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
   
@@ -19,7 +23,9 @@
   
 
   
-  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
@@ -31,11 +37,6 @@
     <script type="text/javascript" src="../../_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/style.css" type="text/css" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Experiments manual as per NPTEL series" href="../Experiment_Manual/index.html" />
@@ -53,7 +54,7 @@
           
 
           
-            <a href="../../index.html" class="icon icon-home"> MSP430 LunchBox
+            <a href="../../index.html" class="icon icon-home" alt="Documentation Home"> MSP430 LunchBox
           
 
           
@@ -76,6 +77,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -91,8 +93,11 @@
 <li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#what-you-need">What You Need</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#installation-step-by-step">Installation Step by Step</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#setting-up-development-environment">Setting up Development Environment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setting-up-ccs">Setting up CCS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setting-up-bsl-uploading-mechanism">setting up BSL uploading mechanism</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#using-git-respository-s-code">Using git respository’s code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-complile-the-code">How to complile the code?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-push-the-code-to-msp430-lunchbox">How to push the code to MSP430 LunchBox?</a></li>
 </ul>
 </li>
 </ul>
@@ -103,6 +108,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -141,7 +147,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="../../index.html">Docs</a> &raquo;</li>
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>Getting Started</li>
     
@@ -166,17 +172,91 @@
 <h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="introduction">
 <h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>In embedded projects, The MCU (MSP430 IC) needs instruction to execute.
+These are machine codes, which are very specific to the  architecutre and peripherals available to that specific variant of MCU family. In MSP430 LunchBox scenario, this variant is <strong>MSP403G2553</strong>.</p>
+<p>The video related to installation is hosted on Nptel Swayam course.</p>
 </div>
 <div class="section" id="what-you-need">
 <h2>What You Need<a class="headerlink" href="#what-you-need" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Windows system</p></li>
+</ul>
+<p>Dowload and install following executables on windows machine.</p>
+<ul class="simple">
+<li><p>Latest CCS IDE (Code composer studio) -&gt; <a class="reference external" href="https://software-dl.ti.com/ccs/esd/documents/ccs_downloads.html">CCS Link</a>.</p></li>
+<li><p>BSL programmer executable -&gt; <a class="reference external" href="https://www.ti.com/tool/MSPBSL">BSL programmer Link</a>.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>BSL programmer is included in <a class="reference external" href="https://github.com/ticepd/EmbSysDesign_NPTEL_Course">git respository</a> of NPTEL course.</p></li>
+<li><p>Adding the path of BSL Programmer in environment variable will make it accessible from everywhere.</p></li>
+</ul>
+</div>
 </div>
 <div class="section" id="installation-step-by-step">
 <h2>Installation Step by Step<a class="headerlink" href="#installation-step-by-step" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="setting-up-development-environment">
-<h3>Setting up Development Environment<a class="headerlink" href="#setting-up-development-environment" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="setting-up-ccs">
+<h3>Setting up CCS<a class="headerlink" href="#setting-up-ccs" title="Permalink to this headline">¶</a></h3>
+<p>Installation steps for CCS is very basic, go with the default selection.</p>
+<p>Only one step to take care is to select the MSP430 ultra-low power MCUs selection in selection menu as shown below.</p>
+<img alt="../../_images/Image-a-CCS-Installation3.png" class="align-center" src="../../_images/Image-a-CCS-Installation3.png" />
+</div>
+<div class="section" id="setting-up-bsl-uploading-mechanism">
+<h3>setting up BSL uploading mechanism<a class="headerlink" href="#setting-up-bsl-uploading-mechanism" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>BSL settings are already done in all the git respository’s project.</p>
+</div>
+<p>Right click on project and go to properties.</p>
+<ul class="simple">
+<li><p>step 1</p></li>
+</ul>
+<p>Go to  Build -&gt; Msp430 Hex utility</p>
+<p>Enable the MSP430 Hex utility.</p>
+<img alt="../../_images/Image-b-BSL-Settings1.png" class="align-center" src="../../_images/Image-b-BSL-Settings1.png" />
+<ul class="simple">
+<li><p>step 2</p></li>
+</ul>
+<p>Go to  Build -&gt; Msp430 Hex utility -&gt; Output Format options</p>
+<p>Select the TI-TXT Format</p>
+<img alt="../../_images/Image-c-BSL-Settings2.png" class="align-center" src="../../_images/Image-c-BSL-Settings2.png" />
+<ul class="simple">
+<li><p>step 3</p></li>
+</ul>
+<p>Go to  Build -&gt; (TAB) steps</p>
+<p>In post build steps add the following line</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$(PWD)\..\..\..\BSL_Program\BSLDEMO2.exe -cCOM9 -m1 +epvr ${BuildArtifactFileBaseName}.txt
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The COM port mentioned in last (ie. COM9) will change from system to system. To know the correct value go to Device manager and check the com port value.</p>
+</div>
+<img alt="../../_images/Image-d-BSL-Settings3.png" class="align-center" src="../../_images/Image-d-BSL-Settings3.png" />
+<p>Now click on apply and close.</p>
 </div>
 <div class="section" id="using-git-respository-s-code">
 <h3>Using git respository’s code<a class="headerlink" href="#using-git-respository-s-code" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>step 1 - clone from git respository from github.</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">ticepd</span><span class="o">/</span><span class="n">EmbSysDesign_NPTEL_Course</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>step 2 - select the workspace to git repo folder which contains examples  (Software\Examples_Msp430G2553_LunchBox).</p></li>
+<li><p>step 3 - By default all the projects will not get included in CCS project explorer plane. To import in project explorer plane, go to File-&gt; import and select examples directory (Software\Examples_Msp430G2553_LunchBox).</p></li>
+</ul>
+<p>Now all the example codes are visible in project explorer plane.</p>
+</div>
+<div class="section" id="how-to-complile-the-code">
+<h3>How to complile the code?<a class="headerlink" href="#how-to-complile-the-code" title="Permalink to this headline">¶</a></h3>
+<p>right click on project and click build.</p>
+</div>
+<div class="section" id="how-to-push-the-code-to-msp430-lunchbox">
+<h3>How to push the code to MSP430 LunchBox?<a class="headerlink" href="#how-to-push-the-code-to-msp430-lunchbox" title="Permalink to this headline">¶</a></h3>
+<p>Since the code pushing mechanism is added in post build steps. Therfore, right click and press rebuild the project to compile and push thereafter. This step will atomatically trigger the pushing mechanism in itself.</p>
 </div>
 </div>
 </div>
@@ -201,11 +281,19 @@
 
   <div role="contentinfo">
     <p>
+        
         &copy; Copyright 2019, Sincgrid LLP
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -216,7 +304,6 @@
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

@@ -74,7 +74,7 @@ In post build steps add the following line
 	$(PWD)\..\..\..\BSL_Program\BSLDEMO2.exe -cCOM9 -m1 +epvr ${BuildArtifactFileBaseName}.txt
 
 
--- note::
+.. note::
 
 	The COM port mentioned in last (ie. COM9) will change from system to system. To know the correct value go to Device manager and check the com port value.
 

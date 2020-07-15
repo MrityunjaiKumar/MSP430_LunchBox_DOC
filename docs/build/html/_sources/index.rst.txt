@@ -18,7 +18,7 @@ modes, is optimized to achieve extended battery life in portable measurement app
 features a powerful 16-bit RISC CPU, 16-bit registers, and constant generators that contribute to
 maximum code efficiency. The digitally controlled oscillator (DCO) allows the device to wake up from lowpower modes to active mode in less than 1 µs. LunchBox utilises the BSL mode for programming the MCU. 
 
-MSP430 LunchBox was developed at `TI CEPD, Netaji Subhash University of Technology, New Delhi <http://cedtnsit.in/>`_. More details on design and development of this board can be found at this `blog, <http://dvgadre.blogspot.com/2017/01/make-yourself-msp430-lunchbox-for-1.html>`_.
+MSP430 LunchBox was developed at `TI CEPD, Netaji Subhash University of Technology, New Delhi <http://cedtnsit.in/>`_. More details on design and development of this board can be found at this `blog <http://dvgadre.blogspot.com/2017/01/make-yourself-msp430-lunchbox-for-1.html>`_.
 
 MSP430 LunchBox is being manufactured and marketed by `SincGrid LLP <http://sincgrid.in/>`_. 
 
