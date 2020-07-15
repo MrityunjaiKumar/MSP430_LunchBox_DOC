@@ -88,7 +88,6 @@
               <p class="caption"><span class="caption-text">Table of Contents</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">LunchBox Hardware</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#hardware-description">Hardware Description</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#schematic">Schematic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#pin-description">Pin Description</a></li>
@@ -166,9 +165,6 @@
             
   <div class="section" id="lunchbox-hardware">
 <h1>LunchBox Hardware<a class="headerlink" href="#lunchbox-hardware" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
-</div>
 <div class="section" id="hardware-description">
 <h2>Hardware Description<a class="headerlink" href="#hardware-description" title="Permalink to this headline">¶</a></h2>
 <img alt="../../_images/LunchBox_Description.png" class="align-center" src="../../_images/LunchBox_Description.png" />
@@ -179,12 +175,20 @@
 </div>
 <div class="section" id="pin-description">
 <h2>Pin Description<a class="headerlink" href="#pin-description" title="Permalink to this headline">¶</a></h2>
+<img alt="../../_images/MSP430-G2533-Pinouts.png" class="align-center" src="../../_images/MSP430-G2533-Pinouts.png" />
+<p>source:- MSP430 G2553 Datasheet</p>
 </div>
 <div class="section" id="programming-mode">
 <h2>Programming mode<a class="headerlink" href="#programming-mode" title="Permalink to this headline">¶</a></h2>
+<p>Before you push the code from ccs to LunchBox, the pin configurations on J1 and J2 should be on side 1.
+As shown in picture below.</p>
+<img alt="../../_images/mode-program.jpg" class="align-center" src="../../_images/mode-program.jpg" />
 </div>
 <div class="section" id="communication-mode">
 <h2>Communication mode<a class="headerlink" href="#communication-mode" title="Permalink to this headline">¶</a></h2>
+<p>To recieve the uart data on serial terminal like putty, the pin configurations on J1 and J2 should be on side 2.
+As shown in picture below.</p>
+<img alt="../../_images/mode-uart.jpg" class="align-center" src="../../_images/mode-uart.jpg" />
 </div>
 </div>
 
