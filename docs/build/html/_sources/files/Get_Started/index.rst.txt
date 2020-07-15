@@ -28,7 +28,7 @@ Installation Step by Step
 =========================
 
 Setting up CCS
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 
 Installation steps for CCS is very basic, go with the default selection. 
 
@@ -38,7 +38,7 @@ Only one step to take care is to select the MSP430 ultra-low power MCUs selectio
     :align: center
 
 Setting up BSL uploading mechanism
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note::
 	BSL settings are already done in all the git respository's project.
@@ -84,7 +84,7 @@ In post build steps add the following line
 Now click on apply and close.
 
 Using git respository's code
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - step 1 - clone from git respository from github.
 
@@ -102,11 +102,11 @@ Now all the example codes are visible in project explorer plane.
 
 
 How to complile the code?
-~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 right click on project and click build.
 
 How to push the code to MSP430 LunchBox?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Since the code pushing mechanism is added in post build steps. Therefore, right click and press rebuild the project to compile and push thereafter. This step will atomatically trigger the pushing mechanism in itself.
