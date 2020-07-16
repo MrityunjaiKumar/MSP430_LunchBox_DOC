@@ -55,10 +55,9 @@ There is a course on `'Introduction to Embedded System Design'  <https://swayam.
    :maxdepth: 2
    :caption: Table of Contents
 
-   files/Hardware_Details/index
-
 
    files/Get_Started/index
+   files/Hardware_Details/index
    files/Experiment_Manual/index
 
 ..   files/Prerequisites.rst
