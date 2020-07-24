@@ -12,7 +12,7 @@ MSP430 LunchBox's documentation!
 
 What is MSP430 LunchBox?
 ========================
-MSP430 Lunchbox is an microcontroller platform based on `TI's MSP430G2553 IC <https://www.ti.com/product/MSP430G2533>`_. The TI MSP family of ultra-low-power microcontrollers consists of several devices that feature different
+MSP430 Lunchbox is a microcontroller platform based on `TI's MSP430G2553 IC <https://www.ti.com/product/MSP430G2533>`_. The TI MSP family of ultra-low-power microcontrollers consists of several devices that feature different
 sets of peripherals targeted for various applications. The architecture, combined with five low-power
 modes, is optimized to achieve extended battery life in portable measurement applications. The device
 features a powerful 16-bit RISC CPU, 16-bit registers, and constant generators that contribute to
