@@ -22,6 +22,10 @@ MSP430 LunchBox was developed at `TI CEPD, Netaji Subhash University of Technolo
 
 MSP430 LunchBox is being manufactured and marketed by `SincGrid LLP <http://sincgrid.in/>`_. 
 
+.. youtube:: edk1i9FDKIw
+   
+
+
 Where to buy LunchBox and Swayam component kit?
 ===============================================
 

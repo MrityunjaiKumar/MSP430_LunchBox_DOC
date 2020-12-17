@@ -15,24 +15,25 @@ import sys
 import sphinx
 # sys.path.insert(0, os.path.abspath('.'))
 
-extensions = [
-    'breathe',
-    'matplotlib.sphinxext.only_directives',
-    'sphinx.ext.autodoc',
-    'matplotlib.sphinxext.plot_directive',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.coverage',
-    'sphinx.ext.doctest',
-    'sphinx.ext.graphviz',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.extlinks',
-    'sphinx_gallery.gen_gallery',
-    'sphinx.ext.napoleon',
-    'sphinx.ext.todo',
-    'sphinx.ext.pngmath',
-    'sphinx.ext.ifconfig',
-    'rst2pdf.pdfbuilder'
-]
+# extensions = [
+#     'breathe',
+#     'matplotlib.sphinxext.only_directives',
+#     'sphinx.ext.autodoc',
+#     'matplotlib.sphinxext.plot_directive',
+#     'sphinx.ext.autosummary',
+#     'sphinx.ext.coverage',
+#     'sphinx.ext.doctest',
+#     'sphinx.ext.graphviz',
+#     'sphinx.ext.intersphinx',
+#     'sphinx.ext.extlinks',
+#     'sphinx_gallery.gen_gallery',
+#     'sphinx.ext.napoleon',
+#     'sphinx.ext.todo',
+#     'sphinx.ext.pngmath',
+#     'sphinx.ext.ifconfig',
+#     'rst2pdf.pdfbuilder',
+#     'sphinxcontrib.youtube'
+# ]
 
 autosummary_generate = True
 # Add any paths that contain templates here, relative to this directory.
@@ -64,8 +65,22 @@ release = '1.0.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'breathe',
+    'sphinx.ext.autodoc',
+    'matplotlib.sphinxext.plot_directive',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.coverage',
+    'sphinx.ext.doctest',
+    'sphinx.ext.graphviz',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.extlinks',
+    # 'sphinx_gallery.gen_gallery',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.todo',
+    'sphinx.ext.ifconfig',
+    # 'rst2pdf.pdfbuilder',
+    'sphinxcontrib.youtube'
 ]
-
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -95,6 +110,7 @@ html_favicon = 'favicon.ico'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
 html_css_files = [
     'style.css'
 ]
